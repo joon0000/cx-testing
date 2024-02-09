@@ -1,5 +1,5 @@
 package main
-// cx
+//
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/supakanboss/sa-G08/controller"
