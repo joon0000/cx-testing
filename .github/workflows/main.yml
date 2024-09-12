@@ -16,6 +16,6 @@ jobs:
         with:
           project_name: joon0000/cx-testing
           cx_tenant: ${{ secrets.CX_TENANT_NAME }}
-          base_uri: $CX_BASE_URI
+          base_uri: ${{ vars.CX_BASE_URI }}
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
